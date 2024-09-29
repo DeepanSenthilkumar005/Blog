@@ -1,14 +1,15 @@
 import React from 'react';
-import 'bootstrap'
+// import 'bootstrap'
+// import './Blog.css'
 
-const Blog = ({ blogs }) => {
+const Blog = (message) => {
+  toast.success(`${v}`, {
+      position: 'top-right',
+      autoClose:false,
+    });
   return (
     <div className="container">
-      {blogs.map((blog) => (
-        <div key={blog.id} className="card mb-3">
-          <h1>hdagfd</h1>
-        </div>
-      ))}
+      
       
     </div>
   );

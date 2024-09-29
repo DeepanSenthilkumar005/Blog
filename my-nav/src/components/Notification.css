@@ -1,9 +1,20 @@
 .btn{
     border: black solid 1px !important;
+    height: 150px;
+    width: 150px;
 }
 .notify{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
+.row{
+    display: flex;
+    /* padding-left: 30%; */
+    align-items: center;
+    justify-content: space-evenly;
+.div{
+    justify-content: center;
+}}
